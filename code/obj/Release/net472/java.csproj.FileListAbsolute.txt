@@ -1,0 +1,10 @@
+F:\java_time\code\bin\Release\net472\WindowsFormsApp4.exe.config
+F:\java_time\code\bin\Release\net472\WindowsFormsApp4.exe
+F:\java_time\code\bin\Release\net472\WindowsFormsApp4.pdb
+F:\java_time\code\obj\Release\net472\java.csproj.AssemblyReference.cache
+F:\java_time\code\obj\Release\net472\WindowsFormsApp4.Properties.Resources.resources
+F:\java_time\code\obj\Release\net472\java.csproj.GenerateResource.cache
+F:\java_time\code\obj\Release\net472\java.GeneratedMSBuildEditorConfig.editorconfig
+F:\java_time\code\obj\Release\net472\java.csproj.CoreCompileInputs.cache
+F:\java_time\code\obj\Release\net472\WindowsFormsApp4.exe
+F:\java_time\code\obj\Release\net472\WindowsFormsApp4.pdb
