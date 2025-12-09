@@ -116,9 +116,7 @@ WindowsFormsApp4/
 - **框架**: .NET Windows Forms
 - **命名空间**: WindowsFormsApp4
 
-## 许可证
 
-请根据您的项目需求添加相应的许可证信息。
 
 ## 更新日志
 
