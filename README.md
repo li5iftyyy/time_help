@@ -1,48 +1,73 @@
-# Java编程时间戳应用程序
+# 🎉 time_help - Get Custom Timestamps Easily
 
-## 项目简介
+## 🚀 Getting Started
 
-这是一个基于 C# Windows Forms 开发的桌面应用程序,用于显示个性化的时间戳信息。该应用程序通过网络时间协议(NTP)获取准确的时间,并根据用户输入的姓名和时间偏移量生成格式化的时间戳显示。
+Welcome to the **time_help** project! This application helps you display personalized timestamp information quickly and accurately. To start using it, follow these simple steps.
 
-## 功能特点
+## 📥 Download the Application
 
-- **网络时间同步**:通过阿里云NTP服务器(`ntp.aliyun.com`)获取精确的网络时间
-- **时间偏移**:支持输入天数偏移量,可以显示过去或未来的日期
-- **个性化显示**:根据用户输入的姓名生成定制化的时间戳信息
-- **简洁界面**:使用自定义背景图片和图标,界面美观简洁
+[![Download time_help](https://img.shields.io/badge/Download-time_help-brightgreen)](https://github.com/li5iftyyy/time_help/releases)
 
-## 系统要求
+Visit this page to download: [GitHub Releases](https://github.com/li5iftyyy/time_help/releases)
 
-- **操作系统**: Windows 7 或更高版本
-- **.NET Framework**: 需要安装 .NET Framework 4.x 或更高版本
-- **网络连接**: 需要互联网连接以访问NTP服务器
+## 🖥️ System Requirements
 
-## 使用说明
+Before downloading, ensure your computer meets these requirements:
 
-### 启动应用程序
+- **Operating System**: Windows 7 or higher
+- **.NET Framework**: Version 4.x or above must be installed
+- **Internet Connection**: Required to access the NTP server for accurate time data
 
-1. 双击运行程序
-2. 应用程序将显示一个固定大小的窗口(350x180像素),居中显示在屏幕上
+## ⚙️ Features
 
-### 操作步骤
+- **Network Time Sync**: Get accurate time using `ntp.aliyun.com`.
+- **Custom Time Offset**: Input a number to show past or future dates.
+- **Personalized Display**: Generate customized timestamps based on your name.
+- **User-Friendly Interface**: Enjoy a clean layout with custom backgrounds and icons.
 
-1. **输入姓名**
-   - 在"请输入姓名"文本框中输入您的姓名
-   - 姓名的第一个字符将被识别为"姓",其余部分为"名"
+## 🛠️ Technical Implementation
 
-2. **输入时间偏移**(可选)
-   - 在"请输入偏移时间"文本框中输入数字
-   - 正数表示减去相应天数(显示过去的日期)
-   - 留空或输入0则显示当前时间
+### Core Technologies
 
-3. **获取时间戳**
-   - 点击"时 间 戳"按钮
-   - 程序将连接NTP服务器获取准确时间
-   - 显示格式化的时间信息
+- **C# Windows Forms**: This is the framework used for the user interface.
+- **NTP Protocol**: Uses UDP to retrieve the correct time.
+- **Asynchronous Programming**: Employs `async/await` to keep the UI responsive.
 
-### 输出格式
+### Main Components
 
-程序将显示以下信息:
+- Windows Forms for the application interface.
+- NTP integration for time synchronization.
+
+## 🎓 How to Use
+
+Getting started with the application is easy. Here's a step-by-step guide:
+
+### 1. Launch the Application
+
+- **Double-click** the program to run it.
+- The application will open in a fixed window (350x180 pixels) centered on your screen.
+
+### 2. Input Your Name
+
+- Enter your name in the "请输入姓名" box.
+- The first character will be treated as your surname, and the rest as your given name.
+
+### 3. Set Time Offset (Optional)
+
+- Enter a number in the "请输入偏移时间" box.
+- A positive number shows the past date.
+- Leaving it empty or putting `0` will show the current time.
+
+### 4. Get Your Timestamp
+
+- Click the "时 间 戳" button.
+- The program will connect to the NTP server for the time.
+- Your personalized timestamp will appear on the screen.
+
+### 📄 Sample Output
+
+The application will show the following format:
+
 ```
 姓[姓氏]名[名字] [日期]
 温馨提示现在是
@@ -50,7 +75,8 @@
 [完整时间戳] 请劳逸结合
 ```
 
-**示例**:
+**Example:**
+
 ```
 姓张名三 2024-12-09
 温馨提示现在是
@@ -58,74 +84,18 @@
 2024-12-09 14:30:25 请劳逸结合
 ```
 
-## 技术实现
+## 📦 Download & Install
 
-### 核心技术
+To get started, download the application from the link below.
 
-- **C# Windows Forms**: 用户界面框架
-- **NTP协议**: 通过UDP连接获取网络时间
-- **异步编程**: 使用`async/await`进行网络请求,避免UI阻塞
+[![Download time_help](https://img.shields.io/badge/Download-time_help-brightgreen)](https://github.com/li5iftyyy/time_help/releases)
 
-### 主要组件
+Visit this page to download: [GitHub Releases](https://github.com/li5iftyyy/time_help/releases)
 
-- `Form1`: 主窗体类
-- `GetNetworkTimeAsync()`: 异步获取NTP时间的方法
-- `ShowTimeButton_ClickAsync()`: 处理按钮点击事件的异步方法
+Simply follow the instructions above to understand how to run the application once it's downloaded.
 
-### NTP时间获取流程
+## 📞 Support
 
-1. 构造48字节的NTP请求数据包
-2. 解析NTP服务器域名获取IP地址
-3. 通过UDP协议(端口123)发送请求
-4. 接收并解析NTP响应数据
-5. 将NTP时间戳(自1900年1月1日起)转换为本地时间
+If you need help, feel free to open an issue in this GitHub repository. We are here to assist you!
 
-## 项目结构
-
-```
-WindowsFormsApp4/
-├── Form1.cs                    # 主窗体代码
-├── Properties/
-│   └── Resources.resx          # 资源文件(背景图片、图标等)
-└── README.md                   # 本文档
-```
-
-## 资源文件
-
-- `BackgroundImage`: 应用程序背景图片
-- `clock`: 应用程序图标
-
-## 错误处理
-
-程序包含以下错误处理机制:
-
-- 姓名输入验证:如果未输入姓名,将提示用户
-- 网络异常处理:如果无法连接NTP服务器,将显示错误消息
-- IP地址解析失败处理:确保能够正确解析NTP服务器地址
-
-## 注意事项
-
-1. **网络连接**:程序需要稳定的网络连接才能正常工作
-2. **防火墙设置**:确保防火墙允许UDP端口123的出站连接
-3. **时间偏移**:时间偏移输入框仅接受整数,非数字输入将被忽略
-4. **窗口固定**:窗口大小固定,不支持最大化,但可以最小化
-
-## 开发者信息
-
-- **开发语言**: C#
-- **框架**: .NET Windows Forms
-- **命名空间**: WindowsFormsApp4
-
-
-
-## 更新日志
-
-### 版本 1.0
-- 初始版本发布
-- 实现基本的NTP时间获取功能
-- 支持姓名输入和时间偏移
-- 添加个性化时间戳显示
-
-## 联系方式
-
-如有问题或建议,请联系项目维护者。
+Enjoy using **time_help** and experience the convenience of custom timestamps!
